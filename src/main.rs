@@ -14,12 +14,8 @@ struct Cli {
 enum Commands {
     /// Create a filter from a rule definition file. If there are duplicate domains, they will not be created.
     Build,
-    /// Test if the rules can be parsed correctly. You will be warned if there are duplicate domains.
-    Test {
-        /// Displays the domains evaluated at the time of testing. Depending on the number of rules, the terminal will flow.
-        #[clap(short, long, default_value = "false")]
-        verbose: bool,
-    }
+    /// Test if the rules can be parsed correctly.
+    Test,
 }
 
 fn main() {
@@ -31,8 +27,8 @@ fn main() {
                 eprintln!("Error: {}", why);
             }
         }
-        Commands::Test { verbose } => {
-            if let Err(why) = command::test::execute(*verbose) {
+        Commands::Test => {
+            if let Err(why) = command::test::execute() {
                 eprintln!("Error: {}", why);
             }
         }
