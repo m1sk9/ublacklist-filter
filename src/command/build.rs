@@ -21,10 +21,10 @@ pub fn execute() -> anyhow::Result<(), anyhow::Error> {
     for r in filter.rule {
         let buffer = match r.comment {
             Some(c) => {
-                format!("# {}\n*://*.{}/*\n", c, r.domain)
+                format!("# {}\n*://*.{}/*\n\n", c, r.domain)
             }
             None => {
-                format!("*://*.{}/*\n", r.domain)
+                format!("*://*.{}/*\n\n", r.domain)
             }
         };
 

@@ -27,7 +27,7 @@ For detailed subscription methods, please refer to the [official documentation](
 ## Blocking Criteria
 
 > [!IMPORTANT]
-
+>
 > To site administrators who are trying to send an issue to unblock their site from this filter:
 >
 > **Do not send it**. I created this list to exclude your site from search results based on my own will.

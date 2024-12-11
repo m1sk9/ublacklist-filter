@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/m1sk9/ublacklist-filter/main/build/ublacklist-
 ## ブロック基準について
 
 > [!IMPORTANT]
-
+>
 > このフィルタに対してブロック解除の Issue を送ろうとしているサイト管理者へ:
 >
 > **送らないでください**．私は自分の意志であなたのサイトを検索結果から除外するためにこのリストを作成しています．
