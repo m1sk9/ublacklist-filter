@@ -1,0 +1,7 @@
+[[rule]]
+domain = "example.com"
+comment = "This is an example rule."
+
+[[rule]]
+domain = "example.org"
+comment = "This is an example rule."
