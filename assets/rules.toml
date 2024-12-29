@@ -25,6 +25,9 @@ domain = "good-f-design.com"
 
 # M
 [[rule]]
+domain = "misskey-hub.net"
+
+[[rule]]
 domain = "misskey.io"
 comment = "2024/12/12: ドメインブロック中のインスタンス"
 
