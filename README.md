@@ -51,7 +51,7 @@ For more details, please refer to [here](#recommended-filters).
 - For adding filters, issues or pull requests are accepted.
   - However, whether to accept them or not is at my discretion.
   - Submitting a pull request requires a Rust environment, so it is not recommended.
-- Rules are written in `assets/rule.toml`.
+- Rules are written in `rule.toml`.
   - This filter is for **domains**. Specify the domain to block the entire site.
   - Write the domain in `domain` and the comment in `comment`.
 
