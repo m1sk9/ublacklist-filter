@@ -13,7 +13,6 @@ comment = "2024/12/12: 長い間 v24.0 のままで最新版への追随も行�
 
 [[rule]]
 domain = "good-f-design.com"
-comment = "2024/12/12: なんか 403 を吐く．なんでブロックしたのか忘れたが，まあこのままで"
 
 # E
 # F
@@ -23,10 +22,15 @@ comment = "2024/12/12: なんか 403 を吐く．なんでブロックしたの�
 # J
 # K
 # L
+
 # M
 [[rule]]
 domain = "misskey.io"
-comment = "2024/12/12: Misskey って調べただけで出てくるの鬱陶しい．求めてない"
+comment = "2024/12/12: ドメインブロック中のインスタンス"
+
+[[rule]]
+domain = "misskey.flowers"
+comment = "2024/12/29: ドメインブロック中"
 
 # N
 # O
@@ -37,7 +41,6 @@ comment = "2024/12/12: Misskey って調べただけで出てくるの鬱陶し�
 # T
 [[rule]]
 domain = "twitter.com"
-comment = "2024/12/12: 有害 (x.com にリダイレクトされるため不要だと思われるが，インデックスが残っている可能性があるため)"
 
 # U
 # V
@@ -45,12 +48,10 @@ comment = "2024/12/12: 有害 (x.com にリダイレクトされるため不要�
 # W
 [[rule]]
 domain = "webdesign-trends.net"
-comment = "2024/12/12: 必要ない"
 
 # X
 [[rule]]
 domain = "x.com"
-comment = "2024/12/12: 有害"
 
 # Y
 # Z
