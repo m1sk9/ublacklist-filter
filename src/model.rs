@@ -20,7 +20,7 @@ impl RuleConfiguration {
 }
 
 pub fn read_filter_file() -> anyhow::Result<Filter> {
-    let filter_file_str = match std::fs::read_to_string("./assets/rules.toml") {
+    let filter_file_str = match std::fs::read_to_string("./rules.toml") {
         Ok(buffer) => buffer,
         Err(_) => {
             return Err(anyhow::anyhow!("Failed to read rules.toml"));
