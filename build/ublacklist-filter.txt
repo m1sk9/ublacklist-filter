@@ -5,6 +5,8 @@
 
 *://*.good-f-design.com/*
 
+*://*.misskey-hub.net/*
+
 # 2024/12/12: ドメインブロック中のインスタンス
 *://*.misskey.io/*
 
