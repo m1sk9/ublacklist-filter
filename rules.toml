@@ -4,6 +4,9 @@
 [[rule]]
 domain = "sixapart.jp"
 
+[[rule]]
+domain = "bugsfighter.com"
+
 # C
 
 # D
@@ -20,6 +23,12 @@ domain = "good-f-design.com"
 # H
 # I
 # J
+[[rule]]
+domain = "linux-console.net"
+
+[[rule]]
+domain = "linux-terminal.com"
+
 # K
 # L
 
@@ -44,6 +53,9 @@ comment = "2024/12/29: ドメインブロック中"
 # T
 [[rule]]
 domain = "twitter.com"
+
+[[rule]]
+domain = "codecamp.jp"
 
 # U
 # V

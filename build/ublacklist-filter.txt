@@ -1,9 +1,15 @@
 *://*.sixapart.jp/*
 
+*://*.bugsfighter.com/*
+
 # 2024/12/12: 長い間 v24.0 のままで最新版への追随も行っているようだが，公式ドキュメントで十分なので削除
 *://*.docker.jp/*
 
 *://*.good-f-design.com/*
+
+*://*.linux-console.net/*
+
+*://*.linux-terminal.com/*
 
 *://*.misskey-hub.net/*
 
@@ -14,6 +20,8 @@
 *://*.misskey.flowers/*
 
 *://*.twitter.com/*
+
+*://*.codecamp.jp/*
 
 *://*.webdesign-trends.net/*
 
