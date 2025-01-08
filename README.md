@@ -2,7 +2,7 @@
 
 [日本語版](./README-JA.md)
 
-This is a filter for uBlacklist that excludes search results from specific domains from various search engines, including Google etc...
+This is a filter for uBlacklist that excludes search results from specific domains from various search engines, including Google, DuckDuckGo etc...
 
 To subscribe, you need to install uBlacklist.
 
@@ -64,12 +64,8 @@ comment = "This is an example rule."
 - Once the rule is added, run `make build` to generate `build/ublacklist-filter.txt`.
   - You can run tests with `make test`.
 
-## Recommended Filters for Subscription
+## Recommended Filters and Settings
 
 A list of subscribable filters can also be found in the [official documentation](https://iorate.github.io/ublacklist/ja/subscriptions). Here are just a few examples.
 
-My list [`👶 ublacklist`](https://github.com/stars/m1sk9/lists/ublacklist) includes the uBlacklist filters that I actually use.
-
-- [ncaq](https://github.com/ncaq)'s [uBlacklistRule](https://github.com/ncaq/uBlacklistRule)
-- [108EAA0A](https://github.com/108EAA0A)'s [ublacklist-programming-school](https://github.com/108EAA0A/ublacklist-programming-school)
-- [arosh](https://github.com/arosh)'s [ublacklist-stackoverflow-translation](https://github.com/arosh/ublacklist-stackoverflow-translation)
+The uBlacklist settings that I actually use can be checked [here](./ublacklist-settings.json). You can also import and use them from the uBlacklist settings page.

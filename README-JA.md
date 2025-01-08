@@ -2,7 +2,7 @@
 
 [英語版](./README.md)
 
-特定ドメインの検索結果を Google を始めとする各種検索エンジンから除外する uBlacklist 用のフィルタです。
+特定ドメインの検索結果を Google, DuckDuckGo を始めとする各種検索エンジンから除外する uBlacklist 用のフィルタです。
 
 購読には uBlacklist の導入が必要です．
 
@@ -64,12 +64,8 @@ comment = "This is an example rule."
 - ルールが追加できたら `make build` を実行して `build/ublacklist-filter.txt` を生成します．
   - `make test` でテストを実行できます．
 
-## 購読推奨フィルタ
+## 購読推奨フィルタ及び推奨設定
 
 購読できるフィルタ一覧は [公式ドキュメント](https://iorate.github.io/ublacklist/ja/subscriptions) にもあります．ここはほんの一例です．
 
-私の [`👶 ublacklist`](https://github.com/stars/m1sk9/lists/ublacklist) というリストには実際に私が使用している uBlacklist のフィルタが含まれています．
-
-- [ncaq](https://github.com/ncaq)'s [uBlacklistRule](https://github.com/ncaq/uBlacklistRule)
-- [108EAA0A](https://github.com/108EAA0A)'s [ublacklist-programming-school](https://github.com/108EAA0A/ublacklist-programming-school)
-- [arosh](https://github.com/arosh)'s [ublacklist-stackoverflow-translation](https://github.com/arosh/ublacklist-stackoverflow-translation)
+私が実際に使用している uBlacklist の設定は [こちら](./ublacklist-settings.json) から確認できます．uBlacklist の設定画面からインポートして使用することもできます．
