@@ -19,6 +19,8 @@
 # 2024/12/29: ドメインブロック中
 *://*.misskey.flowers/*
 
+*://*.fandom.com/*
+
 *://*.twitter.com/*
 
 *://*.codecamp.jp/*
