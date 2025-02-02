@@ -38,11 +38,10 @@ domain = "misskey-hub.net"
 
 [[rule]]
 domain = "misskey.io"
-comment = "2024/12/12: ドメインブロック中のインスタンス"
+comment = "Misskey のことを調べたいときに検索ノイズになってくるのでうざったい"
 
 [[rule]]
 domain = "misskey.flowers"
-comment = "2024/12/29: ドメインブロック中"
 
 [[rule]]
 domain = "fandom.com"
