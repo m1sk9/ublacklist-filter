@@ -20,6 +20,8 @@
 
 *://*.fandom.com/*
 
+*://*.miraheze.org/*
+
 *://*.twitter.com/*
 
 *://*.codecamp.jp/*
