@@ -46,6 +46,9 @@ domain = "misskey.flowers"
 [[rule]]
 domain = "fandom.com"
 
+[[rule]]
+domain = "miraheze.org"
+
 # N
 # O
 # P
